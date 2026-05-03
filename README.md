@@ -1,11 +1,29 @@
 # 🌍 Global Mental Health Analytics Dashboard (1990–2020)
-An end-to-end Power BI project analyzing global mental health trends, combining prevalence and DALYs to uncover patterns, compare severity, and support data-driven public health insights.
+
+> 📌 An end-to-end Power BI project analyzing global mental health trends, combining prevalence and DALYs to uncover patterns, compare severity, and support data-driven public health insights.
 
 ## 📊 Project Overview
 
 This project analyzes the global prevalence and disease burden of major mental health disorders across 214 countries over a 30-year period (1990–2020).
 
 The goal is to uncover patterns, compare disorder impact, and provide insights to support data-driven decision-making in public health.
+
+---
+
+## ✨ Project Highlights
+
+- Built using a star schema with multiple fact tables
+- Developed advanced DAX measures (e.g., burden ratio, normalization)
+- Designed a 3-page analytical dashboard for storytelling
+- Implemented comparative analysis (Prevalence vs DALYs)
+
+---
+
+## 🌍 Why This Project Matters
+
+Mental health is a growing global concern, yet understanding both its prevalence and impact remains complex.
+
+This project demonstrates how combining multiple datasets can provide deeper insights into not just how common disorders are, but how severely they affect populations—supporting better decision-making in healthcare and policy.
 
 ---
 
@@ -43,6 +61,7 @@ The dataset includes:
 ## 🧠 Data Model
 
 A star schema was implemented:
+Both fact tables share common dimensions, enabling comparative analysis while maintaining data integrity.
 
 * **Fact Tables**
 
@@ -61,6 +80,7 @@ Data was transformed using Power Query, including unpivoting for analysis effici
 
 ## 📈 Key Metrics
 
+* Disease Burden Ratio (DALYs / Prevalence) – measures severity relative to occurrence
 * Average Prevalence Rate
 * Maximum Prevalence Rate
 * Average DALYs Rate
@@ -93,10 +113,18 @@ Data was transformed using Power Query, including unpivoting for analysis effici
 
 ## 🔍 Key Insights
 
-* Anxiety disorders are the most prevalent globally
-* Depressive disorders contribute the highest disease burden
-* Some disorders are less common but highly severe
-* Significant variation exists across countries
+* Anxiety disorders consistently show the highest global prevalence
+* Depressive disorders contribute the greatest overall disease burden
+* Certain disorders exhibit low prevalence but disproportionately high severity
+* Significant disparities exist across countries, highlighting unequal mental health burdens
+
+---
+
+## 🌍 Why This Project Matters
+
+Mental health is a growing global concern, yet understanding both its prevalence and impact remains complex.
+
+This project demonstrates how combining multiple datasets can provide deeper insights into not just how common disorders are, but how severely they affect populations—supporting better decision-making in healthcare and policy.
 
 ---
 
