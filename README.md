@@ -1,5 +1,5 @@
-# Mental-Health-Analytics-Dashboard-
 # 🌍 Global Mental Health Analytics Dashboard (1990–2020)
+An end-to-end Power BI project analyzing global mental health trends, combining prevalence and DALYs to uncover patterns, compare severity, and support data-driven public health insights.
 
 ## 📊 Project Overview
 
